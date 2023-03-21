@@ -8,6 +8,9 @@ h1{
 .name-highlight{
     color: orange;
 }
+.orange-highlight{
+    color: orange;
+}
 .half-width{
     width: 40%;
     float: left;
@@ -19,15 +22,45 @@ h1{
 }
 .top-banner{
     background-image: url(images/top-banner.png);
-    height: 500px;
     background-repeat: no-repeat;
 }
 section{
+    height: 450px;
+
     padding-bottom: 150px;
 }
 .link-button{
     text-decoration: none;
-    background-color: coral;
+    background-image: linear-gradient(90deg, lightsalmon, tomato);
     padding: 10px 20px;
     border-radius: 5px;
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    border: ;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    height: 50%;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.middle{
+    margin-left: 50px;
+}
+#full-stak{
+    background-color: white;
+    border-left: 7px solid ;
+    border-image: linear-gradient( lightsalmon , tomato);
+    border-image-slice: 1;
+}
+#starter{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
 }
